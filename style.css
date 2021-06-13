@@ -8,7 +8,7 @@
     font-family: 'Open Sans', sans-serif;
     margin:0;
     padding:0;
-    box-sizing: order-box;
+    box-sizing: border-box;
     text-decoration: none;
     outline: none;
     text-transform: capitalize;
@@ -752,10 +752,6 @@ header .header-2.header-active{
         width: 100%;
     }
 
-}
-
-@media (max-width:400px){
-
     html{
         font-size: 50%;
     }
@@ -767,6 +763,10 @@ header .header-2.header-active{
     header .header-1 .logo{
         padding-bottom: 1rem;
     }
+
+}
+
+@media (max-width:400px){
 
     header .header-2 .navbar ul{
         width: 100vw;
